@@ -1,0 +1,93 @@
+body{
+	border: #000000;
+	padding: 1px;
+	background-color:white;
+}
+.navbar {
+    overflow: hidden;
+    background-color: blue;
+    font-family: Times New Romen;
+	text-shadow:2px 2px #000;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-shadow:2px 2px 8px #FFFFFF;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+	text-shadow: 2px 2px 8px #FFFFFF;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: purple;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+	
